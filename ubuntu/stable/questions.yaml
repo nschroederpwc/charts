@@ -2,8 +2,7 @@
     - variable: service.port
     default: "80"
     description: "Port for the service"
-    type: string
+    type: int
     required: true
-    label: WHAT SERVICE PORT?
-    show_subquestion_if: true
+    label: WHAT SERVICE PORT?    
     group: "Service settings"
