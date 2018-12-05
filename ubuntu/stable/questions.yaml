@@ -1,8 +1,8 @@
 questions:
 - variable: service.port
-  default: 80
+  default: "80"
   description: "Service port, naturally."
-  type: int
+  type: string
   label: Service Port
   required: true
   group: "Master Settings"
